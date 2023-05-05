@@ -1,0 +1,41 @@
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #1370a2;
+  border-top: 4px solid #6d8ec9;
+  color: white;
+  position: relative;
+}
+
+@media (max-width: 321px) {
+  .footer {
+    display: flexbox;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    position: 100%;
+  }
+  .Esq {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 3px;
+  }
+}
+
+.Esq {
+  font-size: 25px;
+}
+
+.Dir {
+  font-size: 10px;
+  width: 50%;
+  text-align: justify;
+  padding-top: 5px;
+  align-items: center;
+  margin-top: 1%;
+}
+
+.image-f {
+  max-width: 120px;
+  margin-top: 10px;
+}

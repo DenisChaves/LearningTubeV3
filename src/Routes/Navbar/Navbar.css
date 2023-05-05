@@ -1,0 +1,85 @@
+@import "https://fonts.googleapis.com/css?family=M PLUS 1";
+
+.LogoNav {
+  max-width: 50px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #1370a2;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-link {
+  margin-left: 20px;
+  font-size: 18px;
+  color: white;
+}
+
+.textNone {
+  list-style: none;
+}
+
+.hamburger {
+  display: none;
+}
+.hamburger:hover {
+  background-color: #6d8ec9;
+  border-radius: 50px;
+}
+
+.nav-item {
+  list-style: none;
+  text-decoration: none;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+}
+
+.nav-item:hover {
+  background-color: #6d8ec9;
+}
+
+@media (max-width: 560px) {
+  .navbar-nav {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-link {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+
+  .hamburger {
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .show {
+    display: block;
+  }
+}
+
+.menuLateral {
+  color: white;
+  padding: 15px;
+}

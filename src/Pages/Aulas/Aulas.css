@@ -1,0 +1,9 @@
+.alignCenter {
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+
+.mg-bottom {
+  margin-bottom: 20px;
+}

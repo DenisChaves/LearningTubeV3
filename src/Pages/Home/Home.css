@@ -1,0 +1,105 @@
+.top {
+  width: 100%;
+  height: 700px;
+  position: relative;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.texttop {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 30px;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+div {
+  position: relative;
+}
+@media (max-width: 1620px) {
+  .top {
+    width: 100%;
+    height: 500px;
+    position: relative;
+  }
+  @media (max-width: 1280px) {
+    .top {
+      width: 100%;
+      height: 370px;
+      position: relative;
+    }
+
+    @media (max-width: 820px) {
+      .top {
+        width: 100%;
+        height: 300px;
+        position: relative;
+      }
+
+      @media (max-width: 580px) {
+        .top {
+          width: 100%;
+          height: 260px;
+          position: relative;
+        }
+
+        @media (max-width: 380px) {
+          .top {
+            width: 100%;
+            height: 170px;
+            position: relative;
+          }
+        }
+      }
+    }
+  }
+}
+
+h2 {
+  text-align: center;
+  color: #0f6492;
+  font-size: 30px;
+}
+
+.cardCheck {
+  background-color: rgb(52, 91, 160);
+  border-top: 10px solid;
+  border-color: #2d96ff;
+}
+.cardMoney {
+  background-color: #32604b;
+  border-top: 10px solid;
+  border-color: #049f57;
+}
+
+.cardMusic {
+  background-color: #6c1130;
+  border-top: 10px solid;
+  border-color: #d61f5d;
+}
+
+.cardThumbs {
+  background-color: #8a6700;
+  border-top: 10px solid;
+  border-color: #f7a21d;
+}
+
+.cardText {
+  font-size: 30px;
+  color: white;
+}
+.img-132 {
+  max-width: 200px;
+}
+
+@media (max-width: 640px) {
+  .cardText {
+    font-size: 20px;
+    color: white;
+  }
+  .img-132 {
+    max-width: 150px;
+  }
+}

@@ -1,0 +1,90 @@
+.cntid {
+  color: red;
+  width: 100%;
+  font-size: 24px;
+  text-align: center;
+}
+
+.cntidtitle {
+  color: white;
+  width: 100%;
+  font-size: 24px;
+  text-align: center;
+}
+
+.cntadmintitle {
+  background-color: white;
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+@media (max-width: 560px) {
+  .cntid {
+    color: red;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .cntidtitle {
+    color: white;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+.buttonDelete {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background: white;
+  border: 1px solid red;
+  color: red;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+.buttonDelete:hover {
+  background: red;
+  color: white;
+}
+.buttonDelete:onclick {
+  background: red;
+  color: white;
+}
+
+.buttonAdicionar {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background: white;
+  border: 1px solid green;
+  color: green;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+.buttonAdicionar:hover {
+  background: green;
+  color: white;
+}
+.buttonAdicionar:onclick {
+  background: green;
+  color: white;
+}
+
+.cntAdminAll {
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #0f6492;
+  margin-bottom: 20px;
+  background: rgb(19, 112, 162);
+  background: linear-gradient(
+    180deg,
+    rgba(19, 112, 162, 1) 0%,
+    rgba(15, 100, 146, 1) 100%
+  );
+  width: 290px;
+}

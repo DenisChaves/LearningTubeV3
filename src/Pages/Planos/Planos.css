@@ -1,0 +1,59 @@
+h2 {
+  text-align: center;
+  color: #0f6492;
+  font-size: 30px;
+}
+
+.cardPlanos {
+  border-radius: 13px;
+  max-width: 320px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px 20px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 51%,
+    rgba(19, 112, 162, 1) 100%
+  );
+}
+
+.cardCrow {
+  background: #e6990b;
+  border-top: 10px solid;
+  border-color: #f1c87c;
+  padding-bottom: 20px;
+}
+
+.crowFont {
+  color: white;
+  font-size: 50px;
+}
+
+.adjustCrow {
+  width: 20%;
+  align-self: center;
+}
+
+.buttonPlanos {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background: white;
+  border: 1px solid #0f6492;
+  color: #0f6492;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+.buttonPlanos:hover {
+  background: #0f6492;
+  color: white;
+}
+.buttonPlanos:onclick {
+  background: #0f6492;
+  color: white;
+}
+
+.img-500 {
+  width: 500px;
+}
